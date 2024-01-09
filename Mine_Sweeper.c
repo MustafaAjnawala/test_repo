@@ -83,6 +83,7 @@ void revealCell(struct Cell *grid[], int row, int col, int rows, int cols, int *
                     printf("--------------------\n");
                     printf("|Current Score = %d|\n", user_score);
                     printf("--------------------\n");
+                    printf("---");
                 } else {
                     printf("Cell already revealed. No points awarded.\n");
                 }
@@ -236,6 +237,7 @@ int game_logic()
                         printf("--------------------\n");
                         printf("|Current Score = %d|\n",user_score);
                         printf("--------------------\n");
+                        printf("--");
                     }
                     else
                     {

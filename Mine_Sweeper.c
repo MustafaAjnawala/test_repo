@@ -237,6 +237,7 @@ int game_logic()
                         printf("--------------------\n");
                         printf("|Current Score = %d|\n",user_score);
                         printf("--------------------\n");
+                        printf("--");
                     }
                     else
                     {
